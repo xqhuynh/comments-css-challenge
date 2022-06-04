@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Rubik", sans-serif;
+  background-color: hsl(228, 33%, 97%);
+}
+
+.container {
+  margin-top: 50px;
+  margin-left: 30%;
+}
+
+.commentBox,
+.postBox {
+  width: 75%;
+  height: 150px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.replyBoxContainer {
+  margin-top: 25px;
+  margin-left: 10%;
+}
+
+.replyBox {
+  width: 72%;
+  height: 150px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.col-md-4 {
+  background-color: hsl(223, 19%, 93%);
+  width: 5%;
+  height: 10%;
+  margin: 15px 5px 0px 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.card-body {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.avatar > img {
+  width: 30px;
+}
+
+.card-title {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+}
