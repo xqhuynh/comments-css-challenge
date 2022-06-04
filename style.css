@@ -5,54 +5,61 @@ body {
   background-color: hsl(228, 33%, 97%);
 }
 
-.container {
+.card {
   margin-top: 50px;
-  margin-left: 30%;
-}
-
-.commentBox,
-.postBox {
-  width: 75%;
-  height: 150px;
-  margin-top: 20px;
+  margin-left: 25%;
   border-radius: 5px;
-  background-color: white;
-}
-
-.replyBoxContainer {
-  margin-top: 25px;
-  margin-left: 10%;
-}
-
-.replyBox {
-  width: 72%;
-  height: 150px;
-  margin-top: 20px;
-  border-radius: 5px;
-  background-color: white;
 }
 
 .col-md-4 {
   background-color: hsl(223, 19%, 93%);
   width: 5%;
-  height: 10%;
-  margin: 15px 5px 0px 20px;
+  height: 80px;
+  margin: 20px 5px 0px 20px;
   text-align: center;
   border-radius: 5px;
 }
 
 .card-body {
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
+  padding-bottom: 5px;
+}
+
+.col-md-8 {
+  width: 480px;
+  height: auto;
+}
+
+.counter {
+  color: hsl(212, 24%, 26%);
 }
 
 .avatar > img {
   width: 30px;
 }
 
-.card-title {
+.name {
+  padding-left: 15px;
+  font-size: 0.9rem;
+}
+
+.lastComment {
+  padding-left: 15px;
+  color: grey;
+  font-size: 0.9rem;
+}
+
+.replyIcon {
+  padding-left: 150px;
+}
+
+.replyText {
+  padding-left: 5px;
+  color: hsl(238, 40%, 52%);
+}
+
+.card-text {
   padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 2px;
+  padding-bottom: 20px;
+  font-size: 0.9rem;
 }
