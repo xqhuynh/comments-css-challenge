@@ -36,7 +36,7 @@
     <!-- First comment box -->
     <div class="card mb-3" style="max-width: 675px">
       <div class="row g-0">
-        <div class="col-md-4">
+        <div class="col-md-4 counterContainer">
           <!-- Comment counter -->
           <div>
             <img
@@ -84,7 +84,7 @@
     <!-- Second comment box -->
     <div class="card mb-3" style="max-width: 675px">
       <div class="row g-0">
-        <div class="col-md-4">
+        <div class="col-md-4 counterContainer">
           <!-- Comment counter -->
           <div>
             <img
@@ -133,7 +133,7 @@
     <!-- First reply comment box -->
     <div class="card commentReplyBox mb-3" style="max-width: 600px">
       <div class="row g-0">
-        <div class="col-md-4">
+        <div class="col-md-4 counterContainer">
           <!-- Comment counter -->
           <div>
             <img
@@ -180,10 +180,9 @@
     </div>
 
     <!-- Second reply comment box -->
-    <!-- First reply comment box -->
     <div class="card commentReplyBox mb-3" style="max-width: 600px">
       <div class="row g-0">
-        <div class="col-md-4">
+        <div class="col-md-4 counterContainer">
           <!-- Comment counter -->
           <div>
             <img
@@ -216,19 +215,46 @@
             <div class="deleteIcon">
               <img src="./images/icon-delete.svg" alt="delete-pic" />
             </div>
+            <a href="#" class="deleteText">Delete</a>
             <!-- Reply icon and link -->
             <div class="lastReplyIconContainer">
-              <img src="./images/icon-reply.svg" alt="reply-icon" />
-              <a href="#" class="replyText">Reply</a>
+              <img src="./images/icon-edit.svg" alt="edit-icon" />
+              <a href="#" class="editText">Edit</a>
             </div>
           </div>
           <!-- Card body text -->
           <p class="card-text">
-            <span class="mentions">@maxblagun</span> if you're still new, I'd
-            recommend focusing on the fundamentals of HTL, CSS, and JS before
-            considering React. It's very tempting to jump ahead but lay a solid
-            foundation first.
+            <span class="mentions">@ramsesmiron</span> I couldn't agree more
+            with this. Everything moves so fast and it always seems like
+            everyone knows the newest library/framework. But the fundamentals
+            are what stay constant.
           </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Post comment box -->
+    <div class="card mb-3" style="max-width: 675px">
+      <div class="row g-0">
+        <div class="col-md-4 postContainer">
+          <div class="postCommentAvatar">
+            <img
+              src="./images/avatars/image-juliusomo.png"
+              alt="jului-somo-pic"
+            />
+          </div>
+          <div>
+            <textarea
+              class="postTextBox"
+              placeholder="Add a comment..."
+            ></textarea>
+          </div>
+          <div>
+            <button type="button" class="btn btn-primary">SEND</button>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body"></div>
         </div>
       </div>
     </div>

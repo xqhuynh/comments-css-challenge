@@ -11,7 +11,7 @@ body {
   border-radius: 5px;
 }
 
-.col-md-4 {
+.counterContainer {
   background-color: hsl(223, 19%, 93%);
   width: 5%;
   height: 80px;
@@ -51,13 +51,15 @@ body {
 }
 
 .replyIcon {
-  padding-left: 255px;
+  padding-left: 250px;
 }
 
-.replyText {
+.replyText,
+.editText {
   padding-left: 10px;
   color: hsl(238, 40%, 52%);
   text-decoration: none;
+  font-weight: 700;
 }
 
 .card-text {
@@ -75,7 +77,7 @@ body {
 }
 
 .replyIconContainer {
-  padding-left: 178px;
+  padding-left: 175px;
 }
 
 .you {
@@ -87,12 +89,46 @@ body {
   padding-left: 15px;
   font-size: 0.9rem;
   width: 125px;
+  color: grey;
 }
 
-.deleteIcon {
-  /* padding-left: 15px; */
+.deleteText {
+  text-decoration: none;
+  color: red;
+  padding-left: 10px;
 }
 
 .lastReplyIconContainer {
-  padding-left: 167px;
+  padding-left: 15px;
+}
+
+.deleteIcon {
+  padding-left: 53px;
+}
+
+.postContainer {
+  display: flex;
+}
+
+.postCommentAvatar > img {
+  width: 40px;
+}
+
+.postCommentAvatar {
+  padding: 25px 20px;
+}
+
+.postTextBox {
+  width: 450px;
+  height: 100px;
+  margin-top: 25px;
+  padding: 10px;
+}
+
+.btn {
+  margin-top: 25px;
+  margin-left: 20px;
+  width: 100px;
+  height: 50px;
+  font-weight: 700;
 }
