@@ -28,13 +28,16 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <!-- CSS stylesheet  -->
     <link rel="stylesheet" href="./style.css" />
     <title>Frontend Mentor</title>
   </head>
   <body>
-    <div class="card mb-3" style="max-width: 540px">
+    <!-- First comment box -->
+    <div class="card mb-3" style="max-width: 675px">
       <div class="row g-0">
         <div class="col-md-4">
+          <!-- Comment counter -->
           <div>
             <img
               src="./images/icon-plus.svg"
@@ -53,6 +56,7 @@
         </div>
         <div class="col-md-8">
           <div class="card-body">
+            <!-- Commentor avatar, name, and last comment -->
             <div class="avatar">
               <img
                 src="./images/avatars/image-amyrobson.png"
@@ -61,15 +65,169 @@
             </div>
             <div class="name"><p>amyrobson</p></div>
             <div class="lastComment"><p>1 month ago</p></div>
+            <!-- Reply icon and link -->
             <div class="replyIcon">
               <img src="./images/icon-reply.svg" alt="reply-icon" />
-              <span class="replyText">Reply</span>
+              <a href="#" class="replyText">Reply</a>
             </div>
           </div>
+          <!-- Card body text -->
           <p class="card-text">
             Impressive! Though it seems the drag feature could be improved. But
             overall it looks incredible. You've nailed the design and the
             responsiveness at various breakpoints works really well.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second comment box -->
+    <div class="card mb-3" style="max-width: 675px">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <!-- Comment counter -->
+          <div>
+            <img
+              src="./images/icon-plus.svg"
+              class="img-fluid rounded start"
+              alt="minus-sign"
+            />
+          </div>
+          <div class="counter">5</div>
+          <div>
+            <img
+              src="./images/icon-minus.svg"
+              class="img-fluid rounded-start"
+              alt="minus-sign"
+            />
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <!-- Commentor avatar, name, and last comment -->
+            <div class="avatar">
+              <img
+                src="./images/avatars/image-maxblagun.png"
+                alt="max-blagun-pic"
+              />
+            </div>
+            <div class="name"><p>maxblagun</p></div>
+            <div class="lastComment"><p>2 weeks ago</p></div>
+            <!-- Reply icon and link -->
+            <div class="replyIcon">
+              <img src="./images/icon-reply.svg" alt="reply-icon" />
+              <a href="#" class="replyText">Reply</a>
+            </div>
+          </div>
+          <!-- Card body text -->
+          <p class="card-text">
+            Woah, your project looks awesome! How long have you been coding for?
+            I'm still new, but think I want to dive into React as well soon.
+            Perhaps you can give me an insight on where I can learn React?
+            Thanks!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- First reply comment box -->
+    <div class="card commentReplyBox mb-3" style="max-width: 600px">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <!-- Comment counter -->
+          <div>
+            <img
+              src="./images/icon-plus.svg"
+              class="img-fluid rounded start"
+              alt="minus-sign"
+            />
+          </div>
+          <div class="counter">4</div>
+          <div>
+            <img
+              src="./images/icon-minus.svg"
+              class="img-fluid rounded-start"
+              alt="minus-sign"
+            />
+          </div>
+        </div>
+        <div class="col-md-8 replyBox">
+          <div class="card-body">
+            <!-- Commentor avatar, name, and last comment -->
+            <div class="avatar">
+              <img
+                src="./images/avatars/image-ramsesmiron.png"
+                alt="ramses-miron-pic"
+              />
+            </div>
+            <div class="name"><p>ramsesmiron</p></div>
+            <div class="lastComment"><p>1 week ago</p></div>
+            <!-- Reply icon and link -->
+            <div class="replyIconContainer">
+              <img src="./images/icon-reply.svg" alt="reply-icon" />
+              <a href="#" class="replyText">Reply</a>
+            </div>
+          </div>
+          <!-- Card body text -->
+          <p class="card-text">
+            <span class="mentions">@maxblagun</span> if you're still new, I'd
+            recommend focusing on the fundamentals of HTL, CSS, and JS before
+            considering React. It's very tempting to jump ahead but lay a solid
+            foundation first.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second reply comment box -->
+    <!-- First reply comment box -->
+    <div class="card commentReplyBox mb-3" style="max-width: 600px">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <!-- Comment counter -->
+          <div>
+            <img
+              src="./images/icon-plus.svg"
+              class="img-fluid rounded start"
+              alt="minus-sign"
+            />
+          </div>
+          <div class="counter">2</div>
+          <div>
+            <img
+              src="./images/icon-minus.svg"
+              class="img-fluid rounded-start"
+              alt="minus-sign"
+            />
+          </div>
+        </div>
+        <div class="col-md-8 replyBox">
+          <div class="card-body">
+            <!-- Commentor avatar, name, and last comment -->
+            <div class="avatar">
+              <img
+                src="./images/avatars/image-juliusomo.png"
+                alt="juliu-somo-pic"
+              />
+            </div>
+            <div class="name"><p>juliusomo</p></div>
+            <div class="you"><p>you</p></div>
+            <div class="lastCommentBox"><p>2 days ago</p></div>
+            <div class="deleteIcon">
+              <img src="./images/icon-delete.svg" alt="delete-pic" />
+            </div>
+            <!-- Reply icon and link -->
+            <div class="lastReplyIconContainer">
+              <img src="./images/icon-reply.svg" alt="reply-icon" />
+              <a href="#" class="replyText">Reply</a>
+            </div>
+          </div>
+          <!-- Card body text -->
+          <p class="card-text">
+            <span class="mentions">@maxblagun</span> if you're still new, I'd
+            recommend focusing on the fundamentals of HTL, CSS, and JS before
+            considering React. It's very tempting to jump ahead but lay a solid
+            foundation first.
           </p>
         </div>
       </div>
